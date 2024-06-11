@@ -13,30 +13,7 @@
    
 </head>
 <body>
-<!-------------------------------------------------------------------------------------------------------->    
-<!--div style="position:relative;">
-<div class="top">
-        <a href="#"><img src="images/logo.png" style="width:250px;  position:absolute; top:-19px;"></a>
-        <button style="position:absolute; left:85%;"><a href="">Staff Login</button>
-    </div>
-
-      
-        <nav>
-            <div class="navbar">
-            <a href="index.html"><img src="images/logo.png" class="logo"></a>
-             
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="FAQ.html">FAQ</a></li> 
-                    <li><a href="index.html">Contact</a></li>
-                    <li><a href="Sign Up/About us.php">About</a></li>
-                </ul> 
-            </div>    
-             
-        </nav>
-</div>
-  <------------------------------------------------------------------------------------------------------>        
-        
+ 
          
                 <h2 style=";">Get to konow about us......</h2><br>
                     <div id= "visionText">
@@ -112,29 +89,7 @@
 
 
 
-    <!--section style="background-color:#ffff">
-            <div class="box">
-                <h2 style="margin-left:250px; color:#0B2D50;">What our customers say about us</h2>
-                <div class="reviews">
-                    <div class="box1">
-                        <p>"The support staff was really helpful and quickly fixed my issue. Highly recommended"</p></br>
-                        <p class="customer">-John David</p>
-                    </div>
-                    <div class="box1">
-                        <p>"I appreciate the prompt and efficient service I received from your support team."</p></br>
-                        <p class="customer">-Adriana Kim</p>
-            
-                    </div>
-                    <div class="box1">
-                        <p>"I had a complex issue, but your support team worked diligently to find a solution."</p></br>
-                        <p class="customer">-Aurora Steele</p>
-            
-                    </div>
-                </div>
-               
-            </div>
-         
-    </section-->
+     
 
 
 </body>
