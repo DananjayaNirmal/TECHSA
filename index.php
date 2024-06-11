@@ -22,7 +22,7 @@
 <section>
 <div style="display:flex;">
 <a href="#"><img src="images/T.png" style="width:200px; position:absolute; top:-20px;"></a>
-<button class="btn" style="margin-left:20%; margin-top:30px;"><h2>About Us</h2></button> 
+<button class="btn" style="margin-left:20%; margin-top:30px;"><h2><a href="aboutUs/About us.php">About Us</a></h2></button> 
 <button class="btn" style="margin-left:50%; margin-top:30px;"><h2>Sign In</h2></button>
 <button class="btn" style="margin-left:30px; margin-top:30px; border:2px solid blue;"><h2>Sign Up</h2></buttton>
 </div>

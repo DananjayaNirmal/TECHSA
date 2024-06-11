@@ -13,31 +13,7 @@
    
 </head>
 <body>
-<!-------------------------------------------------------------------------------------------------------->    
-<!--div style="position:relative;">
-<div class="top">
-        <a href="#"><img src="images/logo.png" style="width:250px;  position:absolute; top:-19px;"></a>
-        <button style="position:absolute; left:85%;"><a href="">Staff Login</button>
-    </div>
-
-      
-        <nav>
-            <div class="navbar">
-            <a href="index.html"><img src="images/logo.png" class="logo"></a>
-             
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="FAQ.html">FAQ</a></li> 
-                    <li><a href="index.html">Contact</a></li>
-                    <li><a href="Sign Up/About us.php">About</a></li>
-                </ul> 
-            </div>    
-             
-        </nav>
-</div>
-  <------------------------------------------------------------------------------------------------------>        
-        
-         
+ 
                 <h2 style=";">Get to konow about us......</h2><br>
                     <div id= "visionText">
                        
