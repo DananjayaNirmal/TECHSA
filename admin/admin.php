@@ -26,9 +26,9 @@
 
     table
     {
-        margin-left:110px;
+        margin-left:90px;
         border:none;
-        border-top:2px soid black;
+        border-bottom:2px soid black;
         width:100%;
     }
 
@@ -47,12 +47,12 @@
         <!--a href=""><i class ="fa fa-fw fa-wrench"></i>Inquries</a--> 
         <a href="add_deleteUser.php"><i class ="fa fa-fw fa-user"></i>User</a>
         
-        <a href="add_deleteUser.php"><div style="color:red"><i class ="fa fa-fw fa-wrench"></i>Add/remove</div></a>
-        <a href="updateUser.php"><div style="color:red"><i class ="fa fa-fw fa-wrench"></i>Update</div></a>
-         
         <a href="add_delete_admin.php"><i class ="fa fa-fw fa-user"></i>Admin</a>
-        <a href="add_delete_admin.php"><div style="color:red"><i class ="fa fa-fw fa-wrench"></i>Add/remove</div></a>
-        <a href="updateAdmin.php"><div style="color:red"><i class ="fa fa-fw fa-wrench"></i>Update</div></a>
+        <a href="add_delete_admin.php"><i class ="fa fa-fw fa-wrench"></i>inquiries</a>
+         
+
+        
+         
     </div>
 
 <!--Without the side bar-->
@@ -80,42 +80,39 @@ $result = mysqli_query($conn,$sql);
 
 if( $result -> num_rows > 0){
 
-   echo "<table border='0' style='margin-left:170px;'>";
+   echo "<div style='width:80%; height:100%; background-color:#fff; margin-left:200px; padding-right:170px;'><table border='0'>";
    echo "<tr>
       
     
-        <th>No</th>
-        <th>TicketType</th>
-        <th>Description</th>
-        <th>Date</th>
-        <th>Actin</td>
+        <th>Inquiry no</th>
+        <th>Opened date</th>
+        <th>Last modified date</th>
 
     </tr>";
 
     while ($row = $result -> fetch_assoc()){
            
-        echo "<tr><td>" . $row['ticketNo'] ."</td><td> " . $row['ticketType'] . " </td><td>" . $row['issue'] . " </td><td>" .$row['date'] . "</td><td><button><a href='inquiry.php' >Reply</a></button><button type='button' name='delete'><a href='delete_inquiry.php'>Delete</a></buttton></td></tr>";
+        echo "<tr><td>" . $row['ticketNo'] ." </td><td>" . $row['date'] . " </td><td>" .$row['date'] . "</td><td><button><a href='inquiry.php' ><h3>Open</h3></a></button></td></tr>";
          
 
     } 
  
 
-    echo "</table>";    
+    echo " </div></table>";    
 
 }   
 
 
 else
 {
-    echo "<script> alert('no inquiries submitted recently') </script>";
+    echo " ";
 }
 
 
 $conn->close();
 ?>
 
-<div style="width:30px; position:absolute; top:800px;"><a href="calender.php"><img src="../images/calendar.png" style ="width:30px;"></a>
-</div>
+ 
 <a href="../index.php"><img src="../images/out.png" style="width:30px; margin-left:1400px; margin-top:380px;"></a>
 
 

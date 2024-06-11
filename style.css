@@ -391,7 +391,8 @@ table
  
 th,td
 {
-    padding:10px;    
+     padding:10px;
+           
 }
  
 
@@ -399,15 +400,16 @@ th,td
  
         button /*addmin_all_buttons*/
         {
-            color:white;
-            border:1px solid #13053f;
-            background-color:#13053f;
-            width:200px;
-            margin-bottom:30px;
+            color:black;
+            border:none;
+            /*border:1px solid #13053f;*/
+            background-color:#fff;
+            width:100px;
+            height:30px;
+            margin-bottom:40px;
             margin-top:20px;
-            margin-left:10px;
-            padding:10px 2px 10px 2px;
-            border-radius:5px;
+            padding:10px 5px 10px 5px;
+            /*border-radius:5px;*/
             cursor:pointer;
             transition:2s;
             
@@ -416,7 +418,7 @@ th,td
         button a
         {
             text-decoration:none;
-            color:#fff;
+            color:#13053f;
         }
 
         button :hover
