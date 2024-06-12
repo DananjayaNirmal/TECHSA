@@ -44,13 +44,13 @@ table
         border:none;
         color:white;
         border-radius:5px;
-        margin-left:51%;
+        margin-left:53%;
         margin-top:40px;
     }
 
     body
     {
-        background-image:linear-gradient(to top, #fff1eb 0%, #72bcd4 100%)
+        background-image: linear-gradient(to left, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     }
 
 
@@ -67,17 +67,17 @@ table
 </div>  
 
 <div class="userMainMid" style="display:flex;">
-    <h2 style="margin-top:40px; margin-left:36px; font-weight:bold;">My inquiries</h2>
+    <h2 style="margin-top:40px; margin-left:70px; font-weight:bold;">My inquiries</h2>
     <button>new inquire</button>
 </div>
 
-<div style="width:70%; height:100%; background-color:white; margin-left:40px;">
+<div style="width:70%; height:100%; background-color:white; margin-left:70px;">
  
   
 <form action="">
       <input type="text" placeholder="Search here" name="search" style="width:20%; margin:10px; outline:none;">
-      <input type="button" value = "Search" name="" style="width:8%; height:27px; margin:10px; border:none; background-color:gray; border-radius:5px;">
-      <hr>
+      <input type="button" value = "Search" name="" style="width:8%; height:27px; margin:10px; border:none; border-radius:5px; background-color:blue; border:none; color:white;">
+      <hr style="border-top:1px solid #D3D3D3">
       <p style="text-align:center; margin-top:200px;">No submitted inquiries</p>
       <p style="margin:200px 0px 0px 0px;"><a href=""><img src="images/calendar.png" style="width:10px;"></p>
       

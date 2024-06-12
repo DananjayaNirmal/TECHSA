@@ -17,7 +17,7 @@
 </head>
 <body>
 <section>
-    <hr>
+    <hr style="border-top:1px solid #D3D3D3">
 </section>
 <section>
 <div style="display:flex;">
@@ -35,8 +35,8 @@
          
         <form class="frm" style="display:flex;"> 
 
-          <input type="email" style="width:70%; margin-top:10px; text-align:center; font-size:19px; color:gray; outline:none;"><br>
-          <input type="button" value="Sign Up Free" style=" font-size:17px; width:20%; margin-top:10px; margin-left:10px; background-color:#8B0000; color:white; border:none; border-radius:5px;">
+          <input type="email" style="width:70%; margin-top:10px; text-align:center; font-size:19px; color:gray; outline:none; border:2px solid #8B0000; border-radius:5px;"><br>
+          <input type="button" value="Sign Up Free" style=" font-size:17px; width:20%; margin-top:10px; margin-left:10px; background-color:blue; color:white; border:none; border-radius:5px;">
         </form>
 </div>
 <video style="width: 600px; height: 400px; position:absolute; left:48%; top:30%; border-radius:0px 0px 100px 0px;" autoplay loop muted>
