@@ -62,7 +62,7 @@ table
 <div style="width:30px; display:flex; ">
     <img src="T.png" style="width:80px; ">
     <a href = ""><img src="T.png" style="width:10px;  position:absolute; left:90%;  "></a>
-    <a href = ""><img src="T.png" style="width:10px;  position:absolute; left:95%;  "></a>
+    <a href = ""><img src="T.png" style="width:10px;  position:absolute; left:95;"></a>
    
 </div>  
 
@@ -71,7 +71,7 @@ table
     <button>new inquire</button>
 </div>
 
-<div style="width:70%; height:100%; background-color:white; margin-left:70px;">
+<div style="width:70%; height:100%; background-color:white; margin-left:70px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
  
   
 <form action="">

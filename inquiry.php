@@ -32,7 +32,7 @@
          <a ref="userAccount.php"><img src="images/logout.png" style="width:10px"></a>
     </div>
 
-<div style = "width:70%; height:90%; background-color:#fff; margin:70px; padding-left:60px; padding-top:20px;">
+<div style = "width:70%; height:90%; background-color:#fff; margin:70px; padding-left:60px; padding-top:20px;   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2); ">
 
 
     <div>
