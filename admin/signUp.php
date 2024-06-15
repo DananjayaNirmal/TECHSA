@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <h4 style="margin:40px 0px 21px 0px;">Enter your email address</h4>
             <input type="email" name="email" required>
             <h5 style="margin-bottom:30px;"><a href="">Already have an account?</a></h5>
-            <input type="button" value="Next" id="next" style="border:none; font-weight:bold; width:100px; color:white;" class="btn">
+            <input type="button" value="Next" id="next" style="border:none; font-weight:bold; width:100px; color:white; margin-left:65%;" class="btn">
         </div>
 
         <div id="form2" class="underContainer">
@@ -69,8 +69,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <label for="lname">Last Name</label>
             <input type="text" name="lname" required>
             <br>
+
+            <div style = "display:flex; margin-left:25%;">
             <input type="button" value="Back" id="back" style="border:none; font-weight:bold; width:100px; color:white;" class="btn">
             <input type="button" value="Next" id="next2" style="border:none; font-weight:bold; width:100px; color:white;" class="btn">
+            </div>
+
         </div>
 
         <div id="form3" class="underContainer">
@@ -79,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <h4 style="margin:5px 0px 30px 0px;">Confirm your password</h4>
             <input type="password" name="conpwd" required>
             <br>
-            <input type="submit" name="add" style="border:none; font-weight:bold; width:100px; color:white;" class="btn" value="Sign Up">
+            <input type="submit" name="add" style="border:none; font-weight:bold; width:100px; color:white; margin-left:65%;" class="btn" value="Sign Up">
         </div>
     </form>
 </div>
