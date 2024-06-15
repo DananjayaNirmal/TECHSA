@@ -80,7 +80,7 @@ $result = mysqli_query($conn,$sql);
 
 if( $result -> num_rows > 0){
 
-   echo "<div style='width:80%; height:100%; background-color:#fff; margin-left:200px; padding-right:170px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); border-radius:20px;'><table border='0'>";
+   echo "<div style='width:80%; height:50%; background-color:#fff; margin-left:200px; padding-right:170px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);'><table border='0'>";
    echo "<tr>
       
     
