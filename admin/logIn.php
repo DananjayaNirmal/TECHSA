@@ -27,7 +27,7 @@ require '../config/config.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = htmlspecialchars($_POST['email']);
     $password = $_POST['pwd'];
-    $conpwd = $_POST['conpwd'];
+     
 
     $checkEmail = "SELECT * FROM admin WHERE email='$email'";
     $result = $conn->query($checkEmail);
@@ -61,8 +61,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <h2 style="margin-bottom:30px; font-weight:bold;">Log in</h2>
             <h4 style="margin:40px 0px 21px 0px;">Enter your email address</h4>
             <input type="email" name="email" placeholder="someone@example.com" required>
-            <h5 style="margin-bottom:30px;"><a href="">Create a new account?</a></h5>
             <h5 style="margin-bottom:30px;"><a href="">Staff log in</a></h5>
+            <h5 style="margin-bottom:30px;"><a href="">Create a new account?</a></h5>
             <input type="button" value="Next" id="next" style="border:none; font-weight:bold; width:100px; color:white; margin-left:65%;" class="btn">
         </div>
 
@@ -70,8 +70,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <h4 style="margin:40px 0px 21px 0px;">Enter your password</h4>
             <input type="password" name="pwd" required>
             <div style = "margin-left:25%;">
-            <input type="button" value="Back" id="back" style="border:none; font-weight:bold; width:100px; color:white;" class="btn">
-            <input type="submit" name="add" style="border:none; font-weight:bold; width:100px; color:white;" class="btn" value="Sign Up">
+
+            <h5 style="margin-bottom:30px; margin-left:-80px;"><a href="">Forgot password?</a></h5>
+            <h5 style="margin-bottom:30px; margin-left:-80px;"><a href="">Create a new account?</a></h5>
+
+            <input type="button" value="Back" id="back" style="border:none; font-weight:bold; width:100px; color:white; margin-bottom:55px;" class="btn">
+            <input type="submit" name="add" style="border:none; font-weight:bold; width:100px; color:white;" class="btn" value="Log in">
         </div>
     </form>
 </div>

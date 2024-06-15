@@ -78,7 +78,45 @@ table
       <input type="text" placeholder="Search here" name="search" style="width:20%; margin:10px; outline:none;">
       <input type="button" value = "Search" name="" style="width:8%; height:27px; margin:10px; border:none; border-radius:5px; background-color:blue; border:none; color:white;">
       <hr style="border-top:1px solid #D3D3D3">
-      <p style="text-align:center; margin-top:200px;">No submitted inquiries</p>
+      <p style="text-align:center; margin-top:200px;"> <?php
+ 
+ require 'config/config.php';
+ 
+ 
+
+$sql = "SELECT  issue FROM ticket";
+ 
+/*$result = $conn -> query($sql);*/
+$result = mysqli_query($conn,$sql);
+
+if( $result -> num_rows > 0){
+
+     
+         
+
+    
+ 
+     
+    echo "<br>
+    <div style = 'margin-left:1px;'>
+    <form>
+    <textarea rows = '8' cols = '100' name='ureply'></textarea>
+    <br>
+    <input type = 'button' value = 'send' name = 'usend'>
+    </form>
+    ";    
+}
+  
+
+
+else
+{
+    echo "<h3>No submitted inquiries</h3>";
+}
+
+
+$conn->close();
+?></p>
       <p style="margin:200px 0px 0px 0px;"><a href=""><img src="images/calendar.png" style="width:10px;"></p>
       
     </form>
@@ -88,52 +126,7 @@ table
  
 </div>
 
-<!--?php
- 
- require '../config/config.php';
- 
- 
 
-$sql = "SELECT ticketNo ,ticketType ,issue ,date FROM ticket";
- 
-/*$result = $conn -> query($sql);*/
-$result = mysqli_query($conn,$sql);
-
-if( $result -> num_rows > 0){
-
-   echo "<table border='0' style='margin-left:170px;'>";
-   echo "<tr>
-      
-    
-        <th>No</th>
-        <th>TicketType</th>
-        <th>Description</th>
-        <th>Date</th>
-        <th>Actin</td>
-
-    </tr>";
-
-    while ($row = $result -> fetch_assoc()){
-           
-        echo "<tr><td>" . $row['ticketNo'] ."</td><td> " . $row['ticketType'] . " </td><td>" . $row['issue'] . " </td><td>" .$row['date'] . "</td><td><button><a href='inquiry.php' >Reply</a></button><button type='button' name='delete'><a href='delete_inquiry.php'>Delete</a></buttton></td></tr>";
-         
-
-    } 
- 
-
-    echo "</table>";    
-
-}   
-
-
-else
-{
-    echo "<script> alert('no inquiries submitted recently') </script>";
-}
-
-
-$conn->close();
-?-->
 
  
 

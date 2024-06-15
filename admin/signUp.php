@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
     $conpwd = $_POST['conpwd'];
 
-    $checkEmail = "SELECT * FROM admin WHERE email='$email'";
+    $checkEmail = "SELECT * FROM customer WHERE email='$email'";
     $result = $conn->query($checkEmail);
 
     if ($result->num_rows > 0) {
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         if ($password == $conpwd) {
             $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-            $sql = "INSERT INTO customer (CID, firstName, lastName, email, password) VALUES (NULL, '$fname', '$lname', '$email', '$passwordHash')";
+            $sql = "INSERT INTO customer (CID, firstName, lastName, email, password) VALUES ('', '$fname', '$lname', '$email', '$passwordHash')";
             $result = $conn->query($sql);
 
             if (!$result) {
@@ -71,8 +71,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <br>
 
             <div style = "display:flex; margin-left:25%;">
-            <input type="button" value="Back" id="back" style="border:none; font-weight:bold; width:100px; color:white;" class="btn">
-            <input type="button" value="Next" id="next2" style="border:none; font-weight:bold; width:100px; color:white;" class="btn">
+            <input type="button" value="Back" id="back" style="border:none; font-weight:bold; width:100px; color:white; margin-top:20px;" class="btn">
+            <input type="button" value="Next" id="next2" style="border:none; font-weight:bold; width:100px; color:white;margin-top:20px;" class="btn">
             </div>
 
         </div>
@@ -80,10 +80,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div id="form3" class="underContainer">
             <h4 style="margin:40px 0px 21px 0px;">Create a password</h4>
             <input type="password" name="password" required>
-            <h4 style="margin:5px 0px 30px 0px;">Confirm your password</h4>
+            <h4 style="margin:5px 0px 21px 0px;">Confirm your password</h4>
             <input type="password" name="conpwd" required>
             <br>
-            <input type="submit" name="add" style="border:none; font-weight:bold; width:100px; color:white; margin-left:65%;" class="btn" value="Sign Up">
+            <input type="submit" name="add" style="border:none; font-weight:bold; width:100px; color:white; margin-left:65%; margin-bottom:3px; " class="btn" value="Sign Up">
         </div>
     </form>
 </div>
