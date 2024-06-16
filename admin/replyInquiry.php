@@ -84,19 +84,19 @@ $result = mysqli_query($conn,$sql);
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        echo "<div style = 'margin-top:-150px; margin-left:1px; width:71%; border:1px solid gray;'>" . $row['issue'] . "</div><br>
+        echo "<div style = ' margin-top:50px;margin-left:1px; width:71%; border:1px solid gray;'>" . $row['issue'] . "</div><br>
         <div style='margin-left:1px;'>
             <form metod = 'POST' action = 'agentReply.php'>
                 <textarea rows='8' cols='100' name='areply' style = 'border:1px solid gray;outline:none;'></textarea>
                 <br>
-                <input type='button' value='reply' name='asend' style = 'padding:3px 15px 3px 15px; background-color:gray;border:none; color:#fff;'>
+                <input type='button' value='add response' name='asend' style = 'padding:3px 15px 3px 15px; background-color:gray;border:none; color:#fff;'>
             </form>
         </div>
         ";
         break;
     }
 } else {
-    echo "<h3>No submitted inquiries</h3>";
+    echo""; /*"<h3>No submitted inquiries</h3>";*/
 }
 
 

@@ -3,7 +3,7 @@ require "../config/config.php"
 
 $areply = $_POST['areply']; 
 
-$stmt = $conn->prepare("INSERT INTO agentReply(reply) VALUES('$areply')");
+$stmt = $conn->query("INSERT INTO agentReply(reply) VALUES('$areply')");
 
 if ($stmt) {
      
