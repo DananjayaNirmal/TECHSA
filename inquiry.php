@@ -63,5 +63,32 @@
 
 </div>
 
+
+
+<?php
+
+require 'config/config.php';
+
+if(isset($_POST['submit_btn'])){
+
+$insert_date=$_POST["date"];
+$inqType = $_POST["in_type"];
+$txtArea = $_POST["message"];
+$file = $_POST["img_upload"];
+
+$sql="INSERT INTO ticket(CID,ticketType,issue,date,file,ticketNo) VALUES('', '$inqType', '$txtArea','$insert_date', '$file')";
+$redirect=$conn->query($sql);
+
+if($redirect === true){
+   /* header("location: Ticketread.php");*/
+   echo "dddd";
+}else{
+    echo "error".$conn->error;
+}
+
+}
+mysqli_close($conn);
+
+?>
 </body>
 </html>

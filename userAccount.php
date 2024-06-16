@@ -84,33 +84,25 @@ table
  
  
 
-$sql = "SELECT  issue FROM ticket";
+$sql = "SELECT  reply FROM agentReply";
  
 /*$result = $conn -> query($sql);*/
 $result = mysqli_query($conn,$sql);
 
-if( $result -> num_rows > 0){
-
-     
-         
-
-    
- 
-     
-    echo "<br>
-    <div style = 'margin-left:1px;'>
-    <form>
-    <textarea rows = '8' cols = '100' name='ureply'></textarea>
-    <br>
-    <input type = 'button' value = 'send' name = 'usend'>
-    </form>
-    ";    
-}
-  
-
-
-else
-{
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        echo "<div style = 'margin-top:-150px; margin-left:1px; width:71%; border:1px solid gray;'>" . $row['reply'] . "</div><br>
+        <div style='margin-left:1px;'>
+            <form>
+                <textarea rows='8' cols='100' name='ureply' style = 'border:1px solid gray;outline:none;'></textarea>
+                <br>
+                <input type='button' value='reply' name='usend' style = 'padding:3px 15px 3px 15px; background-color:gray;border:none; color:#fff;'>
+            </form>
+        </div>
+        ";
+        break;
+    }
+} else {
     echo "<h3>No submitted inquiries</h3>";
 }
 
