@@ -23,25 +23,31 @@
         <br>
         
         <div style = "display:flex;"> 
+    <div>
         First Name:
         </br>
         <input type = "text"  name = "fname" style = "margin-right:50px;">
-
+    </div>
+    <div>
         Last Name:
         </br>
         <input type = "text" name = "lname">
+    </div>
         </div>
         <br>
 
 
         <div style = "display:flex; margin-top:50px; width:100%; height:20px;">  
+    <div>        
         Phone No:
         </br>
         <input type = "phone" name = "phone" style = "margin-right:50px;">
-
+    </div>
+    <div>
         Date Of Birth:
         </br>
         <input type = "date" name = "dob">
+    </div>    
         </div>
         </br>
         <h3 style = "margin-left:-50px; padding-left:50px; background-color:blue;">Update password</h3>
