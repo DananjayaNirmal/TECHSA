@@ -13,7 +13,7 @@
 
 <!--link rel="stylesheet" type="text/css" href="style.css"-->
  
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../styls/style.css">
 
 <style>
 
