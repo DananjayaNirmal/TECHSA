@@ -1,7 +1,7 @@
 
 <?php               //for insert 
 
-require 'config/config.php';
+require '../config/config.php';
 
 
 if ($_SERVER["REQUEST_METHOD"] === "GET") {
@@ -91,7 +91,7 @@ $conn->close();
             <ul class="nav-list">
                 <li><a href="userprofile.php">My Profile</a></li>
                 <li><a href="">Settings</a></li>
-                <li><a href="userAccount.php">My Tickets</a></li>
+                <li><a href="myInquiries.php">My Tickets</a></li>
                  
                  
                 <li><a href="">Notifications</a></li>

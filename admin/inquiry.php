@@ -29,7 +29,7 @@
 </head>
 <body style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">
     <div>
-         <a ref="userAccount.php"><img src="images/logout.png" style="width:10px"></a>
+         <a ref="userAccount.php"><img src="../images/logout.png" style="width:10px"></a>
     </div>
 
 <div style = "width:70%; height:90%; background-color:#fff; margin:70px; padding-left:60px; padding-top:20px;   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2); ">
@@ -67,7 +67,7 @@
 
 <?php
 
-require 'config/config.php';
+require '../config/config.php';
 
 if(isset($_POST['submit_btn'])){
 

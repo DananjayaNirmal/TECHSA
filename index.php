@@ -22,25 +22,27 @@
 <section>
 <div style="display:flex;">
 <a href="#"><img src="images/T.png" style="width:200px; position:absolute; top:-20px;"></a>
-<button class="btn" style="margin-left:20%; margin-top:30px;"><h2><a href="aboutUs/About us.php">About Us</a></h2></button> 
-<button class="btn" style="margin-left:50%; margin-top:30px;"><h2>Sign In</h2></button>
-<button class="btn" style="margin-left:30px; margin-top:30px; border:2px solid blue;"><h2>Sign Up</h2></buttton>
+
+<button class="btn" style="margin-left:80%; margin-top:30px;"><h2><a href="aboutUs/About us.php" style = "text-decoration:none; color:black;">About Us</a></h2></button> 
+
+<button class="btn" style="margin-left:20px;; margin-top:30px; background-color:#CF0006; color:#fff; border:none;"><h2>Sign In</h2></button>
+
 </div>
 </section>
 
 <section>
     <div style = "display:flex; margin-top:120px; margin-left:50px;">
         <div>
-        <h1 style="margin-bottom:80px; font-size:40px; font-weight:bold;color:blue;">Welcome to TECHSA support</h1>
+        <h1 style="margin-bottom:80px; font-size:40px; font-weight:bold; color:blue;">Welcome to TECHSA support</h1>
          
-        <form class="frm" style="display:flex;"> 
+         
+           
+           <button style=" font-size:20px;  margin-top:10px; margin-left:10px; background-color:#CF0006; color:white; border:none; padding:10px; border-radius:5px;">Contact techsa support</button>
 
-          <input type="email" style="width:70%; margin-top:10px; text-align:center; font-size:19px; color:gray; outline:none; border:2px solid #8B0000; border-radius:5px;"><br>
-          <input type="button" value="Sign Up Free" style=" font-size:17px; width:20%; margin-top:10px; margin-left:10px; background-color:blue; color:white; border:none; border-radius:5px;">
-        </form>
+           <button class="btn" style="margin-left:30px; margin-top:30px; border:2px solid blue; border-radius:5px; "><h2>Sign Up</h2></buttton>
 </div>
-<video style="width: 600px; height: 400px; position:absolute; left:48%; top:30%; border-radius:0px 0px 100px 0px;" autoplay loop muted>
-            <source src="T.mp4" type="video/mp4">
+<video style="width: 700px; height: 500px; position:absolute; left:48%; top:25%; border-radius:0px 0px 100px 0px;" autoplay loop muted>
+            <source src="images/homev1.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 <!---img src = "images/hh.jpg" style = "width:50%; position:absolute; left:48%; top:30%; border-radius:0px 0px 100px 0px;;"-->
@@ -48,8 +50,8 @@
 </section>
 
 <section>
-    <img src = "" width = "95%" height = "60%" class="sect2">
-    <img src = "" width = "30%" height = "50%" style="position:absolute; top:700px; left:10px;">
+    <img src = "images/homei1.png" width = "95%" height = "50%" style="position:absolute; width:60%;height:80%; top:700px; left:40px;">
+    <img src = "images/homei2.png" width = "30%" height = "90%" style="position:absolute; top:130%; left:70%; width:300px;">
 </section>
 </body>  
 </html>          

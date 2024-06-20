@@ -13,7 +13,7 @@
 
 <!--link rel="stylesheet" type="text/css" href="style.css"-->
  
-<link rel="stylesheet" href="admin/font_res">
+<link rel="stylesheet" href="font_res">
 
 <style>
 
@@ -60,15 +60,15 @@ table
 <body>
    
 <div style="width:30px; display:flex; ">
-    <img src="T.png" style="width:80px; ">
-    <a href = ""><img src="T.png" style="width:10px;  position:absolute; left:90%;  "></a>
-    <a href = ""><img src="T.png" style="width:10px;  position:absolute; left:95;"></a>
+    <img src="../images/T.png" style="width:80px; ">
+    <a href = ""><img src="../images/T.png" style="width:10px;  position:absolute; left:90%;  "></a>
+    <a href = ""><img src="../images/T.png" style="width:10px;  position:absolute; left:95;"></a>
    
 </div>  
 
 <div class="userMainMid" style="display:flex;">
     <h2 style="margin-top:40px; margin-left:70px; font-weight:bold;">My inquiries</h2>
-    <button>new inquire</button>
+    <button><a href = "../admin/inquiry.php">new inquire</a></button>
 </div>
 
 <div style="width:70%; height:100%; background-color:white; margin-left:70px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
@@ -80,7 +80,7 @@ table
       <hr style="border-top:1px solid #D3D3D3">
       <p style="text-align:center; margin-top:200px;"> <?php
  
- require 'config/config.php';
+ require '../config/config.php';
  
  
 
