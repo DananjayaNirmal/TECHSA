@@ -46,4 +46,55 @@ hr
 /*inquiry______________________*/
 
  
+/*Footer*/
+
+.ftr
+{
+    height:250px;
+    /*background-color:#13053f;*/
+    background-color:#F2F2F2;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    display:flex;
+}
+
+
+.social_media img
+{
+    width:30px;
+    margin-left:14px;
+     
+
+}
+
+.quick_links ul li
+{
+
+list-style:none;
+padding:10px 12px;
+position:relative;
+
+}
+
+.quick_links ul li a
+{
+    text-decoration:none;
+    color:#004AAD;
+}
+
+.ftr_2 img
+{
+    width:300px;
+
+}
+.line
+{
+    margin:80px 40px 30px 0px;
+    width:150px;
+    border:2px solid #13053F;
+}
+.webpage_bottom
+{
+    background-color:#13053F;
+}
  

@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <h2 style="margin-bottom:30px; font-weight:bold;">Sign up</h2>
             <h4 style="margin:40px 0px 21px 0px;">Enter your email address</h4>
             <input type="email" name="email" required>
-            <h5 style="margin-bottom:30px;"><a href="">Already have an account?</a></h5>
+            <h5 style="margin-bottom:30px;"><a href="logIn.php">Already have an account?</a></h5>
             <input type="button" value="Next" id="next" style="border:none; font-weight:bold; width:100px; color:white; margin-left:65%;" class="btn">
         </div>
 

@@ -45,9 +45,9 @@
     <div class="side_bar">
         <a href="#home"><i class ="fa fa-fw fa-home"></i>Home</a> 
         <!--a href=""><i class ="fa fa-fw fa-wrench"></i>Inquries</a--> 
-        <a href="add_deleteUser.php"><i class ="fa fa-fw fa-user"></i>User</a>
+        <a href="updateUserDetails.php"><i class ="fa fa-fw fa-user"></i>User</a>
         
-        <a href="add_delete_admin.php"><i class ="fa fa-fw fa-user"></i>Admin</a>
+        <a href="updateAdminDetails.php"><i class ="fa fa-fw fa-user"></i>Admin</a>
         <a href="add_delete_admin.php"><i class ="fa fa-fw fa-wrench"></i>inquiries</a>
          
 
