@@ -60,15 +60,15 @@ table
 <body>
    
 <div style="width:30px; display:flex; ">
-    <img src="../images/T.png" style="width:80px; ">
-    <a href = ""><img src="../images/T.png" style="width:10px;  position:absolute; left:90%;  "></a>
-    <a href = ""><img src="../images/T.png" style="width:10px;  position:absolute; left:95;"></a>
+    <img src="../images/tnb.png" style="width:80px; ">
+    <a href = ""><img src="../images/tnb.png" style="width:10px;  position:absolute; left:90%;  "></a>
+    <a href = ""><img src="../images/tnb.png" style="width:10px;  position:absolute; left:95;"></a>
    
 </div>  
 
 <div class="userMainMid" style="display:flex;">
     <h2 style="margin-top:40px; margin-left:70px; font-weight:bold;">My inquiries</h2>
-    <button><a href = "../admin/inquiry.php">new inquire</a></button>
+    <button><a href = "../admin/inquiry.php" style = "text-decoration:none; color:#fff;">new inquire</a></button>
 </div>
 
 <div style="width:70%; height:100%; background-color:white; margin-left:70px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">

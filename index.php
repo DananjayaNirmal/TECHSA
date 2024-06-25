@@ -65,7 +65,7 @@
 
 <section>
 
-    <img src = "images/homeEnd.png" style="width:70%; margin-top:50px; margin-left:200px;">
+    <img src = "images/home2472.png" style="width:85%; margin-top:50px; margin-left:100px;">
 
 
 </section>
@@ -102,7 +102,7 @@
             </div>
                 <div class="webpage_bottom">
 
-                    <p style="color:#ffff; text-align:center;">©2024 Techsa.All right reserved</p>
+                    <p style="color:#13053F; text-align:left;">©2024 Techsa.All right reserved</p>
 
                 </div>    
         

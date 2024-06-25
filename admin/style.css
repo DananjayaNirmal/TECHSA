@@ -85,6 +85,7 @@ position:relative;
 .ftr_2 img
 {
     width:300px;
+    margin-top:-50px;
 
 }
 .line
@@ -95,6 +96,6 @@ position:relative;
 }
 .webpage_bottom
 {
-    background-color:#13053F;
+    background-color:#F2F2F2;
 }
  

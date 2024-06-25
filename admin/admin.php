@@ -92,7 +92,7 @@ if( $result -> num_rows > 0){
 
     while ($row = $result -> fetch_assoc()){
            
-        echo "<tr><td>" . $row['ticketNo'] ." </td><td>" . $row['date'] . " </td><td>" .$row['date'] . "</td><td><button><a href='inquiry.php' ><h3 style = 'background-color:blue; padding:3px 0px 3px 0px; box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);'>Open</h3></a></button></td></tr>";
+        echo "<tr><td>" . $row['ticketNo'] ." </td><td>" . $row['date'] . " </td><td>" .$row['date'] . "</td><td><button><a href='agentReply.php' ><h3 style = 'background-color:blue; padding:3px 0px 3px 0px; box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);'>Open</h3></a></button></td></tr>";
          
 
     } 
