@@ -107,5 +107,51 @@
                 </div>    
         
     </footer>
+
+
+
+    <div id="cookies" style="background-color: blue; position: fixed; bottom: 0; display:none; width: 100%;">
+        <p>We use cookies to improve your experience. By continuing, you agree to our use of cookies.</p>
+        <button id="cookies-btn">Accept</button>
+    </div>
+    
+    <script>
+        document.querySelector("#cookies-btn").addEventListener("click", () => {
+            document.querySelector("#cookies").style.display = "none";
+            setCookie("cookiesAccepted", "true", 30);
+        });
+
+        function setCookie(cname, cvalue, exdays) {
+            const d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            let expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            let name = cname + "=";
+            let ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function cookieMessage() {
+            let cookieAccepted = getCookie("cookiesAccepted");
+            if (cookieAccepted !== "true") {
+                document.querySelector("#cookies").style.display = "block";
+            }
+        }
+
+        window.addEventListener("load", cookieMessage);
+    </script>
+
 </body>  
 </html>          
