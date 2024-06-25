@@ -110,9 +110,10 @@
 
 
 
-    <div id="cookies" style="background-color: blue; position: fixed; bottom: 0; display:none; width: 100%;">
-        <p>We use cookies to improve your experience. By continuing, you agree to our use of cookies.</p>
-        <button id="cookies-btn">Accept</button>
+    <div id="cookies" style="background-color: #818589; position: fixed; bottom: 0; display:none; width: 100%; height:15%;">
+        <h3 style = "color:#fff; margin-top:50px; margin-left:20px;">We use cookies to improve user experience. By continuing, you agree to the use of cookies. <a href = "">more info</a></h3>
+        <button id="cookies-btn" style = "position:absolute; left:90%; top:52px; padding:4px 30px 4px 30px; border-radius:2px; border:none; background-color:#13053F; color:#fff;">Accept</button>
+        <button id="cookies-btn" style = "position:absolute; left:80%; top:52px; padding:4px 30px 4px 30px; border-radius:2px; border:none; background-color:#13053F; color:#fff;">Decline</button>
     </div>
     
     <script>
