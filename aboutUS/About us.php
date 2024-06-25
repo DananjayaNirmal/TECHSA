@@ -13,6 +13,9 @@
    
 </head>
 <body>
+    <!--?php
+    require "../templates/header.php";
+    ?-->
  
                 <h2 style=";">Get to konow about us......</h2><br>
                     <div id= "visionText">
