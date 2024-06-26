@@ -78,30 +78,59 @@ table
       <input type="text" placeholder="Search here" name="search" style="width:20%; margin:10px; outline:none;">
       <input type="button" value = "Search" name="" style="width:8%; height:27px; margin:10px; border:none; border-radius:5px; background-color:blue; border:none; color:white;"-->
       <hr style="border-top:1px solid #D3D3D3">
-      <p style="text-align:center; margin-top:200px;"> 
+      <p style="text-align:center; margin-top:200px;">
         
+      
      
-        <?php
+<!--?php
+
+require '../config/config.php';
+
+$mySql = "SELECT issue FROM ticket";
+ 
+ /*$result = $conn -> query($sql);*/
+ $result1 = mysqli_query($conn,$mySql);
+ 
+ if( $result1 -> num_rows > 0){
+ 
+    echo "<div style = 'margin-top:-100px; margin-left:1px; width:71%; border:1px solid gray;'>" . $row['issue'] . "</div><br>";
+ 
+ }
+
+ else {
+    echo "";
+ }
+
+ ?-->
+
+        
+      
+     
+<?php
  
  require '../config/config.php';
  
  
+$mySql = "SELECT issue FROM ticket";/*___*/
+$sql = "SELECT reply FROM userreply";
 
-$sql = "SELECT  reply FROM agentReply";
- 
+$result1 = mysqli_query($conn,$mySql);/*___*/
 /*$result = $conn -> query($sql);*/
 $result = mysqli_query($conn,$sql);
 
-if ($result->num_rows > 0) {
-    while ($row = $result->fetch_assoc()) {
-        echo "<div style = 'margin-top:-150px; margin-left:1px; width:71%; border:1px solid gray;'>" . $row['reply'] . "</div><br>
+/*_and $result1->num_rows > 0_below_added*/
+if ($result->num_rows > 0 and $result1->num_rows > 0 ) {
+    while ($row = $result->fetch_assoc() and $row1 = $result1->fetch_assoc()) {
+        echo "<div style = 'margin-top:-100px; margin-left:1px; width:71%; border:1px solid gray;'>" . $row1['issue'] . "</div><br> 
         <div style='margin-left:1px;'>
             <form>
                 <textarea rows='8' cols='100' name='ureply' style = 'border:1px solid gray;outline:none;'></textarea>
                 <br>
                 <input type='button' value='reply' name='usend' style = 'padding:3px 15px 3px 15px; background-color:gray;border:none; color:#fff;'>
             </form>
-        </div>
+        </div>";
+
+         echo "  <div style = 'margin-top:20px; margin-left:1px; width:71%; border:1px solid gray;'>" . $row['reply'] . "</div><br>
         ";
         break;
     }
@@ -134,8 +163,8 @@ $sql = "SELECT  reply FROM agentReply";
 $result = mysqli_query($conn,$sql);
 
 if ($result->num_rows > 0) {
-     
-        echo "<div style = 'background-color:#fff; width:10%; position:absolute; top:100px; left:1100px;'><p>Status</p> <p style = 'background-color:green; width:30px; color:#fff;'>" . $row[''] . "</p> <P>Created</p>" . $row[''] ."
+     /*remove  hard coded values*/
+        echo "<div style = 'background-color:#fff; width:10%; position:absolute; top:100px; left:1100px;'><p>Status</p> <p style = 'background-color:green; width:60px; padding-left:10px; border-radius:4px; color:#fff;'>" . $row[''] . "solved</p> <P>Created</p>" . $row[''] ."
         <p>Reference</p>" . $row[''] . "<p>No participants</p>
                  
         </div>
