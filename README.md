@@ -1,4 +1,3 @@
 # TECHSA
 hi
-test
 
