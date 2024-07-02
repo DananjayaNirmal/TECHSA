@@ -61,7 +61,7 @@
                             </script>  
                            
                            
-    <table>
+    <!--<table>
         <tr>
             <th>Name</th>
             <th>Feedback</th>
@@ -82,10 +82,10 @@
             }
         $conn->close();
         ?>
-        <!-- <tr>
+         <tr>
             <td>***** Baba</td>
             <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, facilis?</td>
-        </tr> -->
+        </tr> 
     </table>
 
 
