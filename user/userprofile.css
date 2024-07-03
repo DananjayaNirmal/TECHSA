@@ -8,9 +8,9 @@ body{
 .box1 {                                                       /*outter box. account settings included box */
     border:6px solid  #eae5e7bb;
     background-color:#fffeff;
-    margin: 50px 430px 10px 73px;  
+    margin: 20px 430px 10px 73px;  
     width: 90%;
-    height: 1100px;
+    height: 800px;
     position: absolute;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
@@ -135,8 +135,8 @@ img {
 }
 
 .group input:hover{
-    border-color: #174b4bbb;
-    border-width: 3px;
+    border-color: gray;
+    border-width: 2px;
 }
 
 #Month, #Year, #Day, #Gender{
@@ -195,4 +195,11 @@ img {
     font-size: 1em;
     text-align: left;
     width: auto;
+}
+
+form input
+{
+    height:20%;
+    outline:none;
+    border:1px solid gray;
 }
