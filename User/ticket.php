@@ -111,8 +111,6 @@ $conn->close();
       <p style="margin:200px 0px 0px 0px;"><a href=""><img src="images/calendar.png" style="width:10px;"></p>
       
     </form>
-               
-
 
  
 </div>
