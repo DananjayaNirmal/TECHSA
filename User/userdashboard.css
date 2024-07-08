@@ -1,0 +1,206 @@
+body{
+    background-image: linear-gradient(to left, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+} 
+
+
+
+
+.box1 {                                                       /*outter box. account settings included box */
+    border:6px solid  #eae5e7bb;
+    background-color:#fffeff;
+    margin: 20px 430px 10px 73px;  
+    width: 90%;
+    height: 800px;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {                                      /*Account settings */
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    margin-top: 41px;
+}
+
+.navbar1 ul{   
+                                           
+    list-style-type: none;
+    margin: 0%;
+    padding-top:28px;        
+    margin-left: 40px;
+    margin-right: 700px;
+    background-color:#fffeff;
+    position: absolute;
+    font-size: large;
+}
+
+.navbar1 li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    width: 150px;
+   
+}
+.navbar1 li a:hover {
+    
+    background-color: #11033f;
+    color: white;
+    padding: 10px;
+    padding: 15px 16px;
+
+}
+.box3{                                    /* box 2 afrer the account settings box */
+  
+    width: 93%;
+    height:90%;
+    position: absolute;
+    margin-left: 99px;
+    margin-right: 130px;
+   
+}
+
+.propic{                        /*Profile picture box */
+    margin-left: 30%;
+    border: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(214, 206, 206);
+    display:block;
+    border-radius: 10px;
+    margin-right: 30px;
+    padding-top: 24px;
+    padding-bottom: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+h3{
+    font-size: large;             /*Display user name */
+    margin-top: 0px;
+    font-weight: bold;
+    margin-left: 140px;
+}
+
+img {
+    margin-top: 16px;
+    margin-left: 50px;
+}
+
+
+.uname {
+    margin: 3%;
+    position: absolute;
+    top: 30px;
+    margin-left: 170px;
+}
+
+.uname h2 {
+    margin: 0;
+}
+
+.container{                                       /*box 3 form content box */
+    
+    width: 800px;
+    margin-left: 380px;
+  
+}
+
+.content{                         /*Form content */
+    display: flex;
+    padding-left: 80px;
+   
+}
+  
+.row{
+    display:flex;
+    justify-content:space-between ;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 14px;
+    font-size: 18px;
+}
+
+.group{
+    width:calc(50% - 13.4% );
+}
+
+.group input {
+    padding: 7px 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 3px;
+    
+}
+
+.group input:hover{
+    border-color: gray;
+    border-width: 2px;
+}
+
+#Month, #Year, #Day, #Gender{
+
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+.group label{
+   
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.button2:hover{
+    background-color: #6c6e6e;
+    opacity: 0.82;
+}
+
+ .button1,.button2 {
+
+    background: rgba(191, 189, 223, 0.082);
+    border-radius: 5px;
+    color:black;
+    font-size: 17px;
+    cursor: pointer;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    
+}
+.button1{
+   
+    margin-top: 60px;
+    margin-left: 450px;
+}
+.button1:hover{
+    background-color: #6c6e6e;
+    opacity: 0.82;
+}
+.button2 {
+    margin-left: 590px;
+    margin-top: 60px;
+}
+
+.list-button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 25px;
+    width: 150px;
+    font-size: 1em;
+    text-align: left;
+    width: auto;
+}
+
+form input
+{
+    height:20%;
+    outline:none;
+    border:1px solid gray;
+}

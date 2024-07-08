@@ -11,18 +11,18 @@
                      
                     <h2 style="margin-bottom:25px; margin-top:20px; font-weight:bold; color:#13053F;">Links</h3>
                     <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home </a></li>
                     <li><a href="index.html">Contact</a></li>
-                    <li><a href="Sign Up/About us.php">About</a></li>
+                    <li><a href=".../aboutUS/About us.php">About us</a></li>
                     </ul>
                 </div>
         
                 <div class="social_media">
                     <h2 style="margin-top:20px; margin-left:15px; font-weight:bold; color:#13053F;">Follow Us</h2>
                     <hr class = "line">
-                     <a href=""><img src="images/youtube.png"><a>
-                        <a href=""><img src="images/facebook.png"><a>
-                            <a href=""><img src="images/instagram.png"><a>
+                     <a href="https://www.youtube.com/"><img src="images/youtube.png"><a>
+                        <a href="https://www.facebook.com/"><img src="images/facebook.png"><a>
+                            <a href="https://www.instagram.com/"><img src="images/instagram.png"><a>
                             </a>
                             
                 </div>
@@ -30,7 +30,7 @@
             </div>
                 <div class="webpage_bottom">
 
-                    <p style="color:#13053F; text-align:left;">©2024 Techsa.All right reserved</p>
+                    <p style="color:#13053F; text-align:left;">©2024 Techsa.All right reserved </p>
 
                 </div>    
         
