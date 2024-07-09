@@ -7,12 +7,13 @@ The system aims to provide a platform where customers can get support for their 
 
 <b>2.Features</b>
 
-•	Customers can sign up and log in to access support services.
-•	Customers can delete their account.
-•	Customers can create, view, and manage their support tickets.
-•	Admins can manage user accounts and respond to tickets.
-•	Users receive notifications for ticket updates.
-•	The interface is responsive and works on various devices.
+
+•	Customers can sign up and log in to access support services.<br>
+•	Customers can delete their account.<br>
+•	Customers can create, view, and manage their support tickets.<br>
+•	Admins can manage user accounts and respond to tickets.<br>
+•	Users receive notifications for ticket updates.<br>
+•	The interface is responsive and works on various devices.<br>
 •	Customer can see who are we.
 
 <br>3.Technologies Used </br>
