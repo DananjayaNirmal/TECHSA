@@ -25,8 +25,9 @@ The system aims to provide a platform where customers can get support for their 
 5.	MySQL<br>
 
 
-<b>4.Contributions</b>
-1.D.N.Herath           - 
-2.K.H.Ruwanmali        - IT23151642
-4.A.D.N.N.Karunarathna -  
-5. O.K.Perera          -
+<b>4.Contributions</b></br>
+
+1.D.N.Herath           - IT23153554</br>
+2.K.H.Ruwanmali        - IT23151642</br>
+4.A.D.N.N.Karunarathna - IT2315622</br>
+5. O.K.Perera          - IT23151642</br>
