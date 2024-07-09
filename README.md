@@ -18,8 +18,15 @@ The system aims to provide a platform where customers can get support for their 
 
 <br>3.Technologies Used </br>
 
-	HTML
-	CSS
-	JavaScript
-	PHP
-	MySQL
+1.	HTML<br>
+2.	CSS<br>
+3.	JavaScript<br>
+4.	PHP<br>
+5.	MySQL<br>
+
+
+<b>4.Contributions</b>
+1.D.N.Herath           - 
+2.K.H.Ruwanmali        - IT23151642
+4.A.D.N.N.Karunarathna -  
+5. O.K.Perera          -
