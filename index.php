@@ -92,9 +92,9 @@
                 <div class="social_media">
                     <h2 style="margin-top:20px; margin-left:15px; font-weight:bold; color:#13053F;">Follow Us</h2>
                     <hr class = "line">
-                     <a href=""><img src="images/youtube.png"><a>
-                        <a href=""><img src="images/facebook.png"><a>
-                            <a href=""><img src="images/instagram.png"><a>
+                     <a href="https://youtube.com/"><img src="images/youtube.png"><a>
+                        <a href="https://www.facebook.com/"><img src="images/facebook.png"><a>
+                            <a href="https://www.instagram.com/"><img src="images/instagram.png"><a>
                             </a>
                             
                 </div>
