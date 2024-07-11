@@ -12,7 +12,7 @@
 
 <body>
     <?php
-    require 'config/config.php';
+    require '../config/config.php';
 
     if (isset($_POST["id"])) {
         $customerID = $_POST["id"];

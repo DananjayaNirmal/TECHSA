@@ -20,7 +20,7 @@
     <img src="../images/tnb.png" style = "width:100px;">
 </div>
 
-<div style = "background-color:#fff; width:70%; margin:0px 0px 0px 100px; height:100%; box-shadow:10px;">
+2<div style = "background-color:#fff; width:70%; margin:0px 0px 0px 100px; height:100%; box-shadow:10px;">
     <div style = "margin-left:50px;">
     
 <div>
