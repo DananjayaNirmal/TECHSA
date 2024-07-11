@@ -16,6 +16,7 @@
 
 <button class="btn" style="margin-left:20px;; margin-top:30px; background-color:#CF0006; color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "admin/logIn.php">Sign In</a></h2></button>
 
+<button class="btn" style="margin-left:20px;; margin-top:30px; background-color:#CF0006; color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "userdashboard.php">My Profile</a></h2></button>
 </div>
 </section>
 
