@@ -53,21 +53,21 @@ if(isset($_POST["submit"]))
     <link rel="stylesheet" href="header_footer.css">
 
     <title>Customer Login</title>
+    <section>
+    <hr style="border-top:1px solid #D3D3D3">
+    </section>
+<section>
+<div style="display:flex;">
+<a href="#"><img src="../images/T.png" style="width:200px; position:absolute; top:-20px;"></a>
 
-    <section class="sect">
-      
-        <nav>
-            <a href="../index.php"><img src="logo.png" class="logo"></a>
-            <div class="navbar">
-                <ul>
-                    <li><a href="../index.php">Home</a></li>
-                    <li><a href="../FAQ.html">FAQ</a></li> 
-                    <li><a href="../index.php">Contact</a></li>
-                    <li><a href="About us.php">About</a></li>
-                </ul> 
-            </div>   
-        </nav>    
+<button class="btn" style="margin-left:80%; margin-top:30px;"><h2><a href="aboutUs/About us.php" style = "text-decoration:none; color:black;">About Us</a></h2></button> 
 
+<button class="btn" style="margin-left:20px;; margin-top:30px; background-color:#CF0006; color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "User/login.php">Sign In</a></h2></button>
+
+<button class="btn" style="margin-left:20px;; margin-top:30px; background-color:#CF0006; color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "userdashboard.php">My Profile</a></h2></button>
+
+</div>
+</section>
 </head>
 
 <body>
