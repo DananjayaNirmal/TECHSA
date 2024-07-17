@@ -62,9 +62,9 @@ if(isset($_POST["submit"]))
 
 <button class="btn" style="margin-left:80%; margin-top:30px;"><h2><a href="aboutUs/About us.php" style = "text-decoration:none; color:black;">About Us</a></h2></button> 
 
-<button class="btn" style="margin-left:20px;; margin-top:30px; background-color:#CF0006; color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "User/login.php">Sign In</a></h2></button>
+<button class="btn" style="margin-left:20px;; margin-top:30px;color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "User/login.php">Sign In</a></h2></button>
 
-<button class="btn" style="margin-left:20px;; margin-top:30px; background-color:#CF0006; color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "userdashboard.php">My Profile</a></h2></button>
+<button class="btn" style="margin-left:20px;; margin-top:30px; color:#fff; border:none;"><h2><a style = "text-decoration:none; color:#fff;" href = "userdashboard.php">My Profile</a></h2></button>
 
 </div>
 </section>
