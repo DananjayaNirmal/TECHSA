@@ -53,9 +53,15 @@ if(isset($_POST["submit"]))
     <link rel="stylesheet" href="header_footer.css">
 
     <title>Customer Login</title>
-    <section>
+    
+</head>
+
+<body>
+
+<section>
     <hr style="border-top:1px solid #D3D3D3">
 </section>
+
 <section>
 <div style="display:flex;">
 <a href="#"><img src="../images/T.png" style="width:200px; position:absolute; top:-20px;"></a>
@@ -68,11 +74,6 @@ if(isset($_POST["submit"]))
 
 </div>
 </section>
-</head>
-
-<body>
-
-    
     <div class="container">
 
         <div class="log">
